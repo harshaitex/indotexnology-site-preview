@@ -1,0 +1,20 @@
+# Indo Texnology Private Limited
+
+> Automation for spinning mills: automatic cone packing, AI cone inspection, bobbin sorting, cone and bobbin transport, ASRS. 150+ systems since 2007.
+
+Coimbatore, India. Established 2007. Phone +91 97896 77933. Email info@indotexnology.com.
+
+## Products
+
+- [Cone Transport System (CTS)](https://indotexnology.com/cone-transport-system/): CTS collects finished cones from autowinders, rotor and airjet/vortex spinning, carries them to packing and sorts them article-wise into pallets or bins.
+- [Auto Cone-Pack](https://indotexnology.com/auto-cone-pack/): Automatic yarn cone packing into bags or cartons with weight control, AI inspection, barcode labels and ERP reports. 20,000 kg/day with one operator.
+- [CONE-i Cone Inspection](https://indotexnology.com/cone-inspection/): CONE-i is a computer-vision cone inspection system that catches count and colour mix-ups by cone tip and finds UV-visible defects, stopping the line instantly.
+- [Sortlink Magic](https://indotexnology.com/sort-link/): AI vision bobbin (cop) sorter for autowinders: sorts up to 4 colours and separates full and remnant bobbins. Works with Murata, Savio and Schlafhorst.
+- [iaBTS-Cruzo Bobbin Transport System](https://indotexnology.com/bobbin-transport-system/): Automatic roving bobbin transport from any roving frame to any ring frame. First-in-first-out, PLC-controlled to stop count mix-ups, frees floor space.
+- [ASRS for Textiles](https://indotexnology.com/asrs/): Automatic storage and retrieval systems for yarn, fabric rolls and trims: high-bay cranes up to 35 m, multi-deep shuttles, FIFO and ERP-synced warehouse software.
+
+## Company
+
+- [About](https://indotexnology.com/about/)
+- [Contact](https://indotexnology.com/contact/)
+- [Blog](https://indotexnology.com/blog/)
