@@ -106,17 +106,23 @@ svg { width: 1.1em; height: 1.1em; fill: currentColor; flex: none; }
 .crumbs a:hover { color: var(--orange-ink); }
 
 /* Hero */
-.hero { position: relative; color: var(--white); background: var(--dark); overflow: hidden; }
-.hero-bg { position: absolute; inset: 0; }
+.hero { position: relative; color: var(--ink); background: var(--white); overflow: hidden; border-bottom: 1px solid var(--line); }
+.hero-bg { position: absolute; inset: 0 0 0 38%; }
 .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: 60% 30%; }
-.hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(25,25,28,.94) 0%, rgba(25,25,28,.78) 45%, rgba(25,25,28,.2) 100%); }
+.hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, #fff 0%, #fff 38%, rgba(255,255,255,.85) 52%, rgba(255,255,255,0) 78%); }
 .hero-inner { position: relative; z-index: 1; padding-block: clamp(64px, 10vw, 120px); }
-.hero h1 { color: var(--white); font-size: clamp(2.3rem, 5.4vw, 4rem); max-width: 15ch; }
-.hero .eyebrow { color: #FF9A70; }
-.hero .lead { color: #E2E2E6; }
+.hero h1 { color: var(--ink); font-size: clamp(2.3rem, 5.4vw, 4rem); max-width: 15ch; }
+.hero .eyebrow { color: var(--orange-ink); }
+.hero .lead { color: var(--muted); max-width: 52ch; }
 .from { list-style: none; padding: 0; margin: 2em 0 0; display: flex; flex-wrap: wrap; gap: 8px; font-size: .9rem; }
-.from li { border: 1px solid rgba(255,255,255,.3); border-radius: 99px; padding: 4px 12px; color: #E2E2E6; }
-.from li:first-child { border: 0; padding-left: 0; color: #FF9A70; font-weight: 500; }
+.from li { border: 1px solid var(--line); background: var(--white); border-radius: 99px; padding: 4px 12px; color: var(--charcoal); }
+.from li:first-child { border: 0; background: none; padding-left: 0; color: var(--orange-ink); font-weight: 500; }
+@media (max-width: 900px) {
+  .hero-bg { position: relative; inset: auto; height: 260px; order: 2; }
+  .hero { display: flex; flex-direction: column; }
+  .hero::after { display: none; }
+  .hero-inner { padding-block: 48px 40px; }
+}
 
 .page-hero { padding-block: clamp(28px, 5vw, 56px) clamp(40px, 6vw, 72px); }
 .page-hero h1 { max-width: 22ch; }
